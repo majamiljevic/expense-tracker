@@ -1,0 +1,61 @@
+.form-contact {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-contact .form-contact-heading{
+  margin-bottom: 10px;
+}
+.form-contact .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-contact .form-control:focus {
+  z-index: 2;
+}
+.form-contact input{
+  margin-bottom: 5px;
+}
+
+textarea.form-control {
+  height: auto;
+	margin-bottom: 15px;
+  resize: none;
+}
+
+#contactAlert {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.inner.cover{
+  padding-top: 50px;
+}
+
+#sendEmail {
+    color: #fff;
+    text-shadow: none;
+    background-color: #848484;
+    border: 1px solid #707070;
+	  outline: none;
+}
+
+#sendEmail:hover{
+	color: #fff;
+    text-shadow: none;
+    background-color: #c1c1c1;
+    border: 1px solid #c1c1c1;
+	  outline: none;
+}
+
+#sendEmail:active{
+    color: #fff;
+    background-color: #696969;
+    border: 1px solid #696969;
+	  outline: none;
+}

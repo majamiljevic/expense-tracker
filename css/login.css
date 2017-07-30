@@ -1,0 +1,93 @@
+/*sign-in sign-up picker*/
+.nav-signin > li {
+  display: inline-block;
+}
+.nav-signin > li + li {
+  margin-left: 20px;
+}
+.nav-signin > li > h4 {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.nav-signin > li > h4:hover,
+.nav-signin > li > h4:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+  cursor:pointer;
+}
+.nav-signin > .active > h4,
+.nav-signin > .active > h4:hover,
+.nav-signin > .active > h4:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.inner.cover{
+  padding-top: 100px;
+}
+
+/*sign-in, sign-up elements*/
+.form-signin{
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,{
+  margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus{
+  z-index: 2;
+}
+
+.form-signin input {
+  margin-bottom: 5px;
+}
+
+
+/* sign in, sign up buttons*/
+#signin, #signup{
+	margin-top:15px;
+	background-color: #848484;
+	border-color:#707070;
+  outline: none;
+}
+
+#signin:hover, #signup:hover{
+    color: #fff;
+    background-color: #c1c1c1;
+    border-color: #c1c1c1;
+    outline: none;
+}
+
+#signin:active, #signup:active{
+    color: #fff;
+    background-color: #696969;
+    border-color: #696969;
+    outline: none;
+}
+
+/* INPUT fields */
+
+input:required:invalid, input:focus:invalid{
+    border: 1px dotted #ff0000;
+}
+
+input:required:valid, input:focus:valid{
+    border: 1px dotted #00aa00;
+}
